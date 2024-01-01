@@ -1,7 +1,3 @@
-#include<bits/stdc++.h>
-
-using namespace std;
-
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
@@ -70,21 +66,3 @@ public:
         return v1;
     }
 };
-
-int main() {
-
-    vector<int> v1 = {1};
-    int k=1;
-    int x = 1;
-
-    Solution s;
-
-    vector<int> ans = s.findClosestElements( v1 , k , x);
-
-    for(int i=0; i<ans.size(); i++) {
-        cout << ans[i] << " ";
-    }
-
-    cout << endl;
-
-}
